@@ -1,0 +1,108 @@
+body{
+    background-color:white;
+   
+}
+.logna{
+    color: black;
+} 
+.img1{
+    display: flex;
+}
+.tree1{
+    margin: 10px;
+    padding-top: 50px;
+}
+.tree2{
+    margin: 10px;
+    padding-top: 50px;
+}
+.image{
+    display: grid;
+}
+.plate{
+    padding-left: 200px;
+}
+.navbar{
+    display: flex;
+}
+.navimg{
+    padding-left: 1100px;
+   position: absolute;
+}
+.image{
+   padding-left: 5%;
+}
+.text{
+
+    padding-left: 35%;
+}
+.image1{
+    display: flex;
+    
+}
+.text1{
+    padding:50px;
+   font-family:Georgia, 'Times New Roman', Times, serif ; 
+}
+.lam2{
+    padding-left: 95%;
+    position: fixed;
+}
+.lam1{
+    position: fixed;
+}
+.animation{
+    position: relative;
+    font-size: 50;
+ color: brown;
+ -webkit-text stroke:0.3vw yellow;
+    display: inline-block;
+    animation-name: texttype;
+    animation-duration: 5s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0s;
+    animation-direction: forwards;
+    animation-play-state: running;
+     padding-left: 10%; 
+      
+ 
+ }
+ .animation::before{
+     content: "";
+     position: absolute;
+     top: 0%;
+     left: 0;
+     width: 80%;
+     height: 98%;
+     color:white;
+     -webkit-text stroke:0vw yellow;
+     border-right:3px solid ;
+  overflow: hidden;
+ animation:animate 6s linear infinite;
+ animation-duration:3s;
+ 
+ animation-play-state:running;
+ } 
+ @keyframes animate{
+     0%{
+         width:  0;
+         
+ 
+     }
+     50%{
+         width: 100;
+         background-color:white;
+        
+     }
+     100%{
+         left: 0;
+         background-color:white;
+         
+     }
+ }
+span{
+    color:goldenrod;
+}
+.done{
+    padding-top: -90px;
+}
