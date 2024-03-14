@@ -1,0 +1,106 @@
+/* *{
+  margin: 0%;
+  padding: 0%;
+} */
+.navbar {
+  display: flex;
+}
+.button {
+  margin-left: 80%;
+  padding-bottom: 10%;
+}
+.fpc {
+  padding-left: 35%;
+  color: aliceblue;
+}
+h3 {
+  font-size: 50px;
+  color: aliceblue;
+}
+h4 {
+  font-size: 20px;
+  padding-bottom: -3%;
+  color: aliceblue;
+}
+.fpb {
+  display: flex;
+}
+.fpb form input {
+  padding-left: 200px;
+  padding-top: 30px;
+}
+.startb {
+  padding-top: 30px;
+  position: absolute;
+  padding: 18px;
+  background-color: red;
+  color: white;
+  border: 0;
+}
+/* .engb{
+    position: absolute;
+}
+.singb{
+    position: absolute;
+
+} */
+.firstpage {
+  background-image: url(netflix-image.jpg);
+  /* width: 100px;
+  height: 150px; */
+}
+.hed h1 {
+  color: red;
+}
+
+.singb {
+  background-color: red;
+  color: aliceblue;
+}
+.engb {
+  color: aliceblue;
+  background-color: black;
+
+  border-color: aliceblue;
+}
+.secondpage {
+  color: aliceblue;
+}
+.sh {
+  color: white;
+}
+.secondpage {
+  background-color: black;
+}
+.htag {
+  padding: 200px;
+  font-size: 30px;
+}
+/* .spim{
+  margin-left: 65%;
+  margin-bottom: 20%;
+} */
+.secondpage {
+  display: flex;
+}
+/* .spim{
+  padding: 200px;
+} */
+.spim {
+  padding-top: 200px;
+}
+.thirdpage {
+  background-color: black;
+}
+.tpc {
+  color: aliceblue;
+}
+.tpim {
+  
+}
+.thirdpage{
+  display: flex;
+}
+.tpim{
+  padding-left: 50px;
+}
