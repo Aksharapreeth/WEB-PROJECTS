@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exam Registration</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div>
+        <h1 class="name">Akshara Preethi</h1>
+    </div>
+  <div class="container">
+    <h1>Exam Registration</h1>
+    <form id="registrationForm">
+      <label for="fullName">Full Name:</label>
+      <input type="text" id="fullName" required>
+      <label for="email">Email:</label>
+      <input type="email" id="email" required>
+      <label for="examType">Exam Type:</label>
+      <select id="examType" required>
+        <option value="">Select</option>
+        <option value="IELTS">IELTS</option>
+        <option value="TOEFL">TOEFL</option>
+        <option value="GRE">GRE</option>
+      </select>
+      <button type="submit">Register</button>
+    </form>
+    <p id="successMessage" class="success"></p>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
