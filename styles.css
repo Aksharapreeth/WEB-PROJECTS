@@ -1,0 +1,39 @@
+ body {
+    /* background: linear-gradient(135deg, #667eea, #764ba2); */
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('quiz\ bg\ image.jpg') ;
+    background-size: cover;
+}
+
+.quiz-box {
+    max-width: 500px;
+    background: white;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.btn {
+    font-size: 18px;
+    padding: 10px;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    transform: scale(1.05);
+}
+
+.btn.correct {
+    background-color: #28a745 !important;
+    color: white;
+}
+
+.btn.wrong {
+    background-color: #dc3545 !important;
+    color: white;
+} 
+
+
+
